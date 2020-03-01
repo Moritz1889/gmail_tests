@@ -10,7 +10,6 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import json
-import pyautogui as pg
 
 def tap_string_on_keyboard(string):
     actions = ActionChains(driver)
